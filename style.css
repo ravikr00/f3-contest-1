@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(114, 178, 177);
+
+  }
+  table td th:hover {
+    background-color: beige;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    border: 1px solid #8a0d0d;
+    text-align: left;
+    padding: 8px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #d6d5dc;
+  }
+  #btn{
+    width: 175px;
+    margin: 50px;
+    margin-left: 43%;
+    padding: 20px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  .btn:hover{
+    background-color: blue;
+    color: black;
+  }
+  h2{
+    color: whitesmoke;
+    margin-left: 37%;
+  }
